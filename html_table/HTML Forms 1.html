@@ -1,0 +1,58 @@
+<html>
+    <head>
+        <title>login page</title>
+        <style>
+            div {
+                margin-left: 400px;
+                padding: 25px;
+                background-color: white;
+                width: 30%;
+                border-radius: 25px;
+                padding-left: 20px;
+                font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+            }
+           
+            input[type=email]{
+                width: 100%;
+                padding: 10px 10px;
+                border:1px rgb(19, 16, 16) solid;
+                border-radius: 5px;
+            }
+            input[type=password]{
+                width: 100%;
+                padding: 10px 10px;
+                border:1px rgb(19, 16, 16) solid;
+                border-radius: 5px;              
+            }
+            input[type=submit]{
+                width: 100%;
+                padding: 10px 10px;
+                border:1px rgb(19, 16, 16) solid;
+                border-radius: 5px;
+                background-color: rgba(0, 214, 252, 0.918);
+                font-size: 20px;
+                color: white;
+            }
+            input[type=submit]:hover {
+                background-color:rgb(113, 212, 196) ;
+            }
+        </style>
+    </head>
+    <body>
+        <div>
+            <h1 style="text-align: center;">Login with TCS Careers.</h1>
+            
+            <form action="/action.php">
+                <lable for="email">Email Address</lable><br><br>
+                <input type="email" name="email" placeholder="ie. john@example.com"><br><br>
+                <label for="password">Password</label><br><br>
+                <input type="password" name="password" placeholder="Password"><br>
+                <h4 style="text-align: right; color: rgb(34, 124, 226);">Forgot Password ?</h4><br>
+                <input type="submit" value="Login"><br><br>
+                <center><p style="color: rgb(34, 124, 226);"><span style="color: grey;">New user?</span> Register with us</p></center>
+            </form>
+        </div>    
+        
+
+    </body>
+</html>
