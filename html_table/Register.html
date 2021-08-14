@@ -1,10 +1,172 @@
 <html>
     <head>
         <title>Register</title>
+        <style>
+            /* div {
+                float: inline-start;
+            } */
+            div.one{
+                margin-top: 10%;
+                margin-left: 15%;
+                width: 70%;
+                height: 1400px;
+                background-color: white;
+                box-shadow: 0 3px 6px 0 rgba(114, 113, 113, 0.2), 0 4px 16px 0 rgba(110, 107, 107, 0.19);
+            }
+         
+            div.form {
+                float: left;
+                width: 70%;
+                height: 1400px;
+                font-family: Arial, Helvetica, sans-serif;
+            }
+            div.instruction {
+                padding-top: 20px;
+                float: right;
+                width: 30%;
+                height: 1380px;
+                background-color: #f0f0f0;
+                font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+            } 
+             li {
+                font-size: 13px;
+                color: darkgray;
+                padding-left: 20px;
+                padding-right: 55px;
+            }
+            a {
+                text-decoration: none;
+                color: #249DEA;
+            }
+            select {
+                width: 30%;
+                padding: 10px 10px;
+                border:1px grey solid;
+                border-radius: 5px;
+            } 
+            input[type=email]{
+                width: 70%;
+                padding: 10px 10px;
+                border:1px grey solid;
+                border-radius: 5px;
+            }
+            input[type=password]{
+                width: 70%;
+                padding: 10px 10px;
+                border:1px grey solid;
+                border-radius: 5px;
+            }
+            input[type=text]{
+                width: 70%;
+                padding: 10px 10px;
+                border:1px grey solid;
+                border-radius: 5px;
+            }
+            input[type=number]{
+                width: 30%;
+                padding: 10px 10px;
+                border:1px grey solid;
+                border-radius: 5px;
+            }
+            input[type=date]{
+                width: 30%;
+                padding: 10px 10px;
+                border:1px grey solid;
+                border-radius: 5px;
+            }
+        </style>
     </head>
     <body>
-        <div>
-            <h2>Create a Profile with TCS Careers</h2>
+        <div class="one">
+        <div class="form">
+            <p style="font-size: 25px; text-align: center;"><b>Create a Profile with TCS Careers</b></p>
+            <p style="font-size: 14px; text-align: center;">
+                <span style="color: grey;">Already have an account?</span>
+                <a href="./HTML Forms 1.html" style="text-decoration:solid;">Login</a>
+            </p>
+            <pre style="font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; color: grey;">
+                Area of Interest&nbsp;<sup style="color: red;">*</sup>
+
+                <select>
+                    <option></option>
+                    <option>shrihaan</option>
+                    <option>Ashwini</option>
+                    <option>Swapnil</option>
+                </select>
+
+                Email Address
+
+                <input type="email" name="email" placeholder="jhon@example.com">
+
+                Password&nbsp;<sup style="color: red;">*</sup>
+
+                <input type="password" name="password">
+
+                Confirm Password&nbsp;<sup style="color: red;">*</sup>
+
+                <input type="password" name="password">
+            
+                Title&nbsp;<sup style="color: red;">*</sup>
+
+                <select>
+                    <option>1</option>
+                    <option>1</option>
+                    <option>1</option>
+                </select>
+
+                Last Name&nbsp;<sup style="color: red;">*</sup>
+
+                <input type="text" name="lastname" placeholder="Last Name">
+
+                Contact Number&nbsp;<sup style="color: red;">*</sup>
+
+                <input type="number" name="num" placeholder="Contact Number">
+                
+                Date of Birth&nbsp;<sup style="color: red;">*</sup>
+
+                <input type="date" name="date">
+
+                Pan Card Number&nbsp;<sup style="color: red;">*</sup>
+
+                <input type="text" name="lastname" placeholder="Pan Card Number">
+
+                Skills&nbsp;<sup style="color: red;">*</sup>
+
+                <input type="text" name="lastname" placeholder="Enter your skills in order of exepertise(Maximum 5)">
+            
+                Prefered Location
+
+                <input type="checkbox"> Anywhere in India
+
+                <select>
+                    <option>Select your prefered location</option>
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                </select>
+
+                Current Location&nbsp;<sup style="color: red;">*</sup>
+
+                <select>
+                    <option>Current location</option>
+                    <option></option>
+                    <option></option>
+                    <option></option>
+                </select>
+            </pre>
+        
         </div>
+            
+            <div class="instruction">
+                <p style="font-size: 20px; color: rgb(40, 153, 218); padding-left: 30px;">Some Instructions</p>
+                <ul>
+                <li>A candidate who has been rejected by TCS in the past three months, cannot re-apply.</li><br>
+                <li>For any queries or assistance, please write to us at careers@tcs.com.</li><br>
+                <li>Please be careful while filling the profile information.</li><br>
+                <li>The information provided here will be considered throughout the application process.</li><br>
+                <li>Your resume would be considered for either our IT & IT-IS Operations or for our BPS operations, basis your choice of the Area of Interest specified here.</li><br><br>   
+                </ul>
+            </div>
+         </div>
     </body>
 </html>
